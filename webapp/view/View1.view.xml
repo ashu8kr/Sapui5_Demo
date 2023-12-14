@@ -3,7 +3,16 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
         <content>
-        <Button id="_IDGenButton1" text = "Save" press = "onSavepress"></Button>
+            <VBox id="idMainVBox">
+                <HBox id="idNameHBox">
+                    <Label id="idNameLabel" text="Name"/>
+                    <Input id="idNameInput"/>
+                </HBox>
+                <HBox id="idContactHBox">
+                    <Label id="idContactLabel" text="Name"/>
+                    <Input id="idContactInput"/>
+                </HBox>
+            </VBox>
         </content>
     </Page>
 </mvc:View>
