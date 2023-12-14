@@ -3,6 +3,14 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
         <content>
+        <VBox id="_IDGenVBox1" >
+        <Label id="idlblspec" text="Specification" design="Standard" textDirection="Inherit"/>
+		<Input id="idSpecification" showValueHelp="true"></Input>
+        </VBox>
+        <VBox id="_IDGenVBox2" >
+        <Label id="_IDGenLabel1" text="Material" design="Standard" textDirection="Inherit"/>
+		<Input id="idMaterial" showValueHelp="true"></Input>
+        </VBox >
         <Button id="_IDGenButton1" text = "Save" press = "onSavepress"></Button>
         </content>
     </Page>
