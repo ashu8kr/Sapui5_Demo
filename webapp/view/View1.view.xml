@@ -3,7 +3,8 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
         <content>
-        <Button id="_IDGenButton1" text = "Save" press = "onSavepress"></Button>
+        <Button id="_IDGenButton1" text = "Hello" ></Button>
+        <Button id="_IDGenButton2" text = "Submit" ></Button>
         </content>
     </Page>
 </mvc:View>
